@@ -1,0 +1,32 @@
+<!-- homePageLayout -->
+<aura:component implements="forceCommunity:layout" access="global" description="Home Layout SsaiK">
+    <aura:attribute name="att1" type="Aura.Component[]" />
+    <aura:attribute name="att2" type="Aura.Component[]" />
+    <aura:attribute name="att3" type="Aura.Component[]" />
+    <aura:attribute name="att4" type="Aura.Component[]" />
+    <aura:attribute name="att5" type="Aura.Component[]" />
+    <aura:attribute name="att6" type="Aura.Component[]" />
+    <aura:attribute name="att7" type="Aura.Component[]" />
+    <aura:attribute name="att8" type="Aura.Component[]" />
+    
+    <div class="slds-grid slds-wrap">
+  <div class="slds-size_1-of-3">
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">{!v.att1}</div>
+  </div>
+  <div class="slds-size_1-of-3">
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">{!v.att2}</div>
+  </div>
+  <div class="slds-size_1-of-3">
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">{!v.att3}</div>
+  </div>
+  <div class="slds-size_1-of-3">
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">{!v.att4}</div>
+  </div>
+  <div class="slds-size_2-of-3">
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">{!v.att5}</div>
+  </div>
+  <div class="slds-size_3-of-3">
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">{!v.att6}</div>
+  </div>
+</div>
+</aura:component>
